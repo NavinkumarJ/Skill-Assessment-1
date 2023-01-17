@@ -12,16 +12,16 @@ But, a normal encoder has a problem. If there is more than one input line with l
 Thus, to solve the above disadvantage, we “prioritize” the level of each input. Hence, if multiple input lines are selected, the output code will correspond to the input with the highest designated priority. This type of encoder is called the Priority Encoder.
 
 ### Logic diagram:
-![image](./pen (1).png)
+![image](./lgdig.png)
 
 ### Logical expression:
-![image](./pen (1).png)
+![image](./lgequ.png)
 
 ###	Block diagram:
-![image](./pen (1).png)
+![image](./blck.png)
 
 ###	Truth table/ Excitation table:
-![image](./pen (1).png)
+![image](./tt.png)
 
 ###	Explanation:
 4 to 2 Priority Encoder
@@ -48,11 +48,13 @@ or(A1,Y3,Y2);
 or(A0,a,Y3);
 endmodule
 ```
+![image](./code.png)
+
 ###	RTL diagram:
-![image](./pen (1).png)
+![image](./rtl.png)
 
 ###	Timing diagram:
-![image](./pen (1).png)
+![image](./wave.png)
 
 ###	Result:
 Thus,design of priority encoder circuit and verify its truth table in Quartus using Verilog programming is executed successfully
